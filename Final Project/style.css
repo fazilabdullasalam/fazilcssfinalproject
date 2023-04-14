@@ -1,0 +1,139 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #444;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  .bio {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .bio > div {
+    margin-left: 1rem;
+  }
+  
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    color: #3f3f3f;
+  }
+  
+  /* Selector Types */
+  
+  /* Type 1: Element Selector */
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    color: #3f3f3f;
+  }
+  
+  /* Type 2: Class Selector */
+  .bio {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  /* Type 3: ID Selector */
+  #name {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Type 4: Attribute Selector */
+  input[type="email"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Responsive & Mobile First */
+  @media (min-width: 768px) {
+    .container {
+      padding: 4rem;
+    }
+  
+    .bio {
+      flex-direction: row-reverse;
+    }
+  }
+  
+  /* Grid, Flexbox & Layout */
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(5, 5fr);
+    grid-gap: 1rem;
+  }
+  
+  .project {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Fonts & Text */
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    color: #3f3f3f;
+  }
+  
+  p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+  }
+  
+  /* Backgrounds & Colors */
+  body {
+    background-color: #ffffff;
+  }
+  
+  .bio {
+    background-color: #74d7fe;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  
+  /* Animation & Transitions */
+  .bio img {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .bio img:hover {
+    transform: scale(1.1);
+  }
+
+  .social{
+    margin-left: 2%;
+    margin-top: 100px;
+}
+
+.social a{
+    font-size: 30px;
+    color: #212121;
+    margin-right: 20px;
+}
+
+.social a:hover{
+    color: #74d7fe;
+}
